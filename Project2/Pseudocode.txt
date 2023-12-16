@@ -1,0 +1,39 @@
+Pseudocode for Project 2
+
+Investment.h
+================================================================================================
+class Investment
+	Public:
+		Constructor
+
+		Function to calculate Investment data without Monthly Deposits
+		Function to calculate Investment data with Monthly Deposits
+
+	Private:
+		double Initial Investment, Monthly Deposit, Annual Interest Rate
+		int Number of Years
+
+================================================================================================
+
+
+Investment.cpp
+================================================================================================
+Constructor
+
+Function Definitions
+	Use loops to calculate interest for each month and print for each year
+
+================================================================================================
+
+
+main.cpp
+================================================================================================
+Take user input to get investment values
+	Use if statements to ensure valid data entries
+
+Create an Investment object with the provided values
+
+Use class function to print without Monthly Deposits
+Use class function to print with Monthly Deposits
+
+================================================================================================
